@@ -31,7 +31,7 @@ public class Praktijk {
     }
 
     @EventSourcingHandler
-    public void handle(PraktijkToegevoegdEvent event){
+    public void on(PraktijkToegevoegdEvent event){
         aggregateIdentifier = event.getAggregateId();
         naam = event.getNaam();
         woonplaats = event.getWoonplaats();
