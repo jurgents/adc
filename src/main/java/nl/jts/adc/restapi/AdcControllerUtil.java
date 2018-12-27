@@ -9,9 +9,9 @@ public class AdcControllerUtil {
         String url = element.attr("href");
         String[] parts = url.split("/");
         if (parts.length == 4) {
-            return new ToevoegenFysiotherapiePraktijkCommand(element.text(), parts[2], parts[3]);
+            return new ToevoegenFysiotherapiePraktijkCommand("ïd", element.text(), parts[2], parts[3]);
         } else {
-            return new ToevoegenFysiotherapiePraktijkCommand("1", "2", "3");
+            return new ToevoegenFysiotherapiePraktijkCommand("id", "1", "2", "3");
         }
     }
 }

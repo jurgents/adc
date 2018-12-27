@@ -1,1 +1,4 @@
 websiteAdc: "https://www.kenniscentrumduizeligheid.nl/kenniscentrum-duizeligheid/Fysiotherapeuten-en-oefentherapeuten"
+axon:
+  serializer:
+    events: jackson

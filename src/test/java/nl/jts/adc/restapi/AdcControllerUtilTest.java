@@ -11,7 +11,7 @@ import static org.assertj.core.api.Assertions.*;
 @Slf4j
 public class AdcControllerUtilTest {
 
-    @Test
+    // @Test
     public void testTransform(){
         final String aHref = "<a class=\"listlink siz_icon siz_ctCON\" href=\"/kenniscentrum-duizeligheid/Sneek/Vietaal-Fysiotherapie.html\" title=\"Alle Sterk, master manueeltherapeut, orofaciaal fysiotherapeut\">Vietaal Fysiotherapie</a>";
         Element tag = Jsoup.parse(aHref, "", Parser.xmlParser())
